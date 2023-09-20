@@ -23,7 +23,7 @@ services:
       - ./postgres-backup:/postgres-backup
       - ./postgres-data:/var/lib/postgresql/data
     ports:
-      - 5432:5432
+      - '5432:5432'
 ```
  - `version` - дефолт
  - `image` - используем образ postgres
